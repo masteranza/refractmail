@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Refract Mail</title>
+  <meta name="description" content="How Refract Mail, a native macOS app for Gmail, handles your Google data: on your Mac, with no Refract Mail server.">
+  <link rel="icon" type="image/png" href="../assets/favicon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="../"><img src="../assets/favicon.png" alt="">Refract Mail</a>
+      <nav>
+        <a href="../">Home</a>
+        <a href="./" aria-current="page">Privacy</a>
+        <a href="../terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Effective October 3, 2026</p>
+
+    <div class="note">
+      <p><strong>In short:</strong> Refract Mail is a mail app that runs on your Mac and talks to Google directly. There is no Refract Mail server. Your mail, contacts and sign-in stay between your Mac and Google; we never receive them, and the app collects nothing about you or how you use it.</p>
+    </div>
+
+    <h2>Who we are</h2>
+    <p>Refract Mail is a macOS app developed by Michał Mandrysz (“we”, “us”). This policy covers the Refract Mail app and this website.</p>
+
+    <h2>The data the app accesses</h2>
+    <p>When you add a Google account, Google asks you to grant Refract Mail these permissions. The app uses each one only for the features listed:</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Data</th><th>Google permission</th><th>Used for</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Your email messages, threads, drafts and attachments</td>
+            <td><code>gmail.modify</code></td>
+            <td>Showing your mail; sending, archiving, labelling, marking read or unread, starring and moving messages to Trash when you ask; saving drafts to Gmail.</td>
+          </tr>
+          <tr>
+            <td>Your Gmail labels</td>
+            <td><code>gmail.labels</code></td>
+            <td>Showing labels as tags, and creating a label when you add one.</td>
+          </tr>
+          <tr>
+            <td>Your send-as addresses and signatures</td>
+            <td><code>gmail.settings.basic</code></td>
+            <td>Choosing the From address and inserting your signature when you write.</td>
+          </tr>
+          <tr>
+            <td>Your contacts and “other contacts” (names, email addresses, photos)</td>
+            <td><code>contacts.readonly</code>, <code>contacts.other.readonly</code></td>
+            <td>Suggesting recipients as you type, and showing senders' photos.</td>
+          </tr>
+          <tr>
+            <td>Your name, email address and profile picture</td>
+            <td><code>openid</code>, <code>email</code>, <code>profile</code></td>
+            <td>Identifying which Google account is signed in.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Refract Mail only reads your contacts; it never changes them, and it never permanently deletes mail.</p>
+
+    <h2>Where your data is kept</h2>
+    <p>Your mail and contacts stay in your Google account, where they already are. To work quickly and offline, Refract Mail keeps a copy of recent mail, the attachments you open and senders' photos on your Mac, inside the app's sandboxed container. Your Google sign-in is kept in the macOS Keychain. Your settings — profiles, accounts, preferences — are kept in the same container.</p>
+    <p>None of it is stored anywhere else. We do not operate a server for Refract Mail, so there is no copy of your data held by us.</p>
+
+    <h2>Who the app talks to</h2>
+    <ul>
+      <li><strong>Google</strong> — to sign you in and to read and change your mail, labels, settings and contacts as described above. These connections go straight from your Mac to Google over encrypted HTTPS.</li>
+      <li><strong>The senders of your mail, only when you ask</strong> — remote images in a message are blocked until you choose to load them; loading them contacts the servers that host them, as in any mail app.</li>
+      <li><strong>Websites you open</strong> — links open in your default browser. Refract Mail removes known tracking parameters and click-tracking redirects from links before opening them.</li>
+    </ul>
+    <p>Refract Mail contains no analytics, advertising, crash-reporting or tracking code, and contacts no server of ours.</p>
+
+    <h2>How Google user data is used and shared</h2>
+    <p>Refract Mail uses data from Google only to provide the features you use in the app, on your Mac. We do not sell it, share it, transfer it, use it for advertising, or let anyone read it. It is not used to develop, improve or train generalized artificial intelligence or machine-learning models.</p>
+    <p>Refract Mail's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Keeping and deleting your data</h2>
+    <ul>
+      <li>The copy on your Mac is kept for as long as the account is in Refract Mail, and refreshed as your mail changes in Gmail.</li>
+      <li>Removing an account in <em>Settings › Accounts</em> deletes the mail and attachments Refract Mail downloaded for it from your Mac.</li>
+      <li><em>Settings › Reset Cache</em> deletes all downloaded mail; it is downloaded again from Gmail as needed.</li>
+      <li>You can withdraw Refract Mail's access to your Google account at any time at <a href="https://myaccount.google.com/connections">myaccount.google.com/connections</a>. After that, the app can no longer reach your account.</li>
+    </ul>
+    <p>Because we hold no copy of your data, there is nothing for us to delete on a server, and no request to make.</p>
+
+    <h2>Security</h2>
+    <p>Refract Mail runs in the macOS App Sandbox with the hardened runtime, is signed with a Developer ID and notarized by Apple, keeps your sign-in in the Keychain, and connects to Google only over HTTPS. Signing in happens in Apple's secure web sign-in sheet, so the app never sees your Google password.</p>
+
+    <h2>Children</h2>
+    <p>Refract Mail is not directed at children under 13, and we do not knowingly collect data from anyone — of any age.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this policy changes, the new version will be posted on this page with a new effective date. Refract Mail will not use your Google data in a new way without asking for your consent first.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy: <a href="https://github.com/masteranza/refractmail/issues">open an issue on GitHub</a>.</p>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>© 2026 Michał Mandrysz · <a href="../">Home</a> · <a href="../terms/">Terms of Service</a></p>
+      <p>Refract Mail is not affiliated with or endorsed by Google. Gmail and Google are trademarks of Google LLC.</p>
+    </div>
+  </footer>
+</body>
+</html>

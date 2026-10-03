@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Refract Mail — Gmail, native on your Mac</title>
+  <meta name="description" content="Refract Mail is a native macOS app for Gmail, built for people with more than one Google account. Your mail goes straight from Google to your Mac — there is no Refract Mail server.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="assets/favicon.png" alt="">Refract Mail</a>
+      <nav>
+        <a href="./" aria-current="page">Home</a>
+        <a href="privacy/">Privacy</a>
+        <a href="terms/">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <img src="assets/icon.png" alt="The Refract Mail app icon">
+      <h1>Refract Mail</h1>
+      <p class="lede">A native Mac app for Gmail, built for people with more than one Google account.</p>
+      <p class="status">Private beta · macOS 26 Tahoe or later · Apple silicon and Intel</p>
+    </section>
+
+    <h2>What it does</h2>
+    <ul class="features">
+      <li><strong>Profiles for your accounts</strong><span>Group your Google accounts — work, personal, a side project — into profiles, and switch between them with one click. Read one account at a time, or all of a profile's accounts together.</span></li>
+      <li><strong>Your inbox, the way Gmail sorts it</strong><span>Primary, Social, Promotions, Updates and Forums, beside Sent, Starred, Drafts, Archive, Spam and Trash — with unread counts, always one click away.</span></li>
+      <li><strong>Conversations, not messages</strong><span>Whole threads in one view, with your contacts' photos. Remote images stay blocked until you choose to load them.</span></li>
+      <li><strong>Cleaner links</strong><span>Tracking parameters are stripped and click-tracking redirects unwrapped before a link opens, and the bottom bar shows where a link really goes.</span></li>
+      <li><strong>Write in Markdown</strong><span>Bold, lists, quotes, headings and code blocks as you type, sent as ordinary formatted email. Attachments, drafts that sync with Gmail, and Undo Send.</span></li>
+      <li><strong>Fast and local</strong><span>Mail is kept on your Mac, so it opens instantly and your actions apply at once, then sync with Gmail. Labels, Gmail search operators and keyboard shortcuts included.</span></li>
+    </ul>
+
+    <h2>Private by design</h2>
+    <p>Refract Mail talks to Google directly from your Mac. There is no Refract Mail server: your mail, your contacts and your sign-in never pass through us, and the app collects nothing about how you use it — no analytics, no tracking, no ads.</p>
+    <p>Your mail is kept on your Mac inside the app's sandbox, and your Google sign-in in the macOS Keychain. The app is signed with a Developer ID and notarized by Apple.</p>
+
+    <h2>How Refract Mail uses your Google data</h2>
+    <p>When you add an account, Google asks you to allow these permissions. Each one exists for a feature you use, and the data stays on your Mac:</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Permission</th><th>What Refract Mail does with it</th></tr></thead>
+        <tbody>
+          <tr><td>Read, compose, send and organize your Gmail</td><td>Shows your mail, and sends, archives, labels, marks and moves messages to Trash when you ask it to.</td></tr>
+          <tr><td>Manage your Gmail labels</td><td>Shows your labels as tags, and creates a label when you add one.</td></tr>
+          <tr><td>Gmail basic settings</td><td>Reads your send-as addresses and signatures for writing mail.</td></tr>
+          <tr><td>Your contacts and other contacts (read-only)</td><td>Suggests recipients as you type, and shows senders' photos.</td></tr>
+          <tr><td>Your name, email address and profile picture</td><td>Identifies which Google account is signed in.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Refract Mail's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. The <a href="privacy/">privacy policy</a> has the details.</p>
+
+    <h2>Questions</h2>
+    <p>Refract Mail is in private beta. For questions, bug reports or access, <a href="https://github.com/masteranza/refractmail/issues">open an issue on GitHub</a>.</p>
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <p>© 2026 Michał Mandrysz · <a href="privacy/">Privacy Policy</a> · <a href="terms/">Terms of Service</a></p>
+      <p>Refract Mail is not affiliated with or endorsed by Google. Gmail and Google are trademarks of Google LLC. Mac and macOS are trademarks of Apple Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>

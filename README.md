@@ -1,7 +1,7 @@
 # Refract Mail
 
 The website for Refract Mail, a native macOS app for Gmail:
-<https://masteranza.github.io/refractmail/>
+<https://refractmail.com/>
 
 - [`index.html`](index.html) — the homepage
 - [`privacy/`](privacy/index.html) — the privacy policy
